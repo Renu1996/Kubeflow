@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('C:/Users/Renu Kadolkar/Downloads/studentsp/StudentsPerformance.csv')
+data = pd.read_csv('StudentsPerformance.csv')
 
 math_mean = data['math score'].mean()
 read_mean = data['reading score'].mean()
